@@ -1,0 +1,28 @@
+
+
+
+
+
+
+/*
+ * Control feature layout
+ */
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    *zoom: 1;
+    zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+.dataTables_wrapper .dataTables_scroll {
+    clear: both;
+}
+
