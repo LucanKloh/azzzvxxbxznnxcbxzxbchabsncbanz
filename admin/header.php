@@ -133,6 +133,18 @@ if ($base == 'LOCAL') {
                         <i class="icon-picture"></i><span>Consultar</span>
                     </a>
                 </div>
+                <a href="" title="Categorias" class="submenu" name="subcategoria">
+                    <i class="icon-cogs"></i><span>Sub-categoria</span>
+                </a>
+                <!-- Media Sub Menu -->
+                <div id="subcategoria">
+                    <a href="<?php echo $link_scripts; ?>subcategoria/cadastro.php" title="Cadastrar Categorias">
+                        <i class="icon-film"></i><span>Cadastro</span>
+                    </a>
+                    <a href="<?php echo $link_scripts; ?>subcategoria/consultar.php" title="Consultar Categorias">
+                        <i class="icon-picture"></i><span>Consultar</span>
+                    </a>
+                </div>
                 <!-- Media Sub Menu -->
                 <a href="" class="submenu" name="teste" title="Other Contents">
                     <i class="icon-book"></i><span>Teste</span>
