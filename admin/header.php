@@ -132,7 +132,7 @@ if ($base == 'LOCAL') {
                     <a href="<?php echo $link_scripts; ?>categorias/consultar.php" title="Consultar Categorias">
                         <i class="icon-picture"></i><span>Consultar</span>
                     </a>
-                </div>
+                </div>                                                
                 <a href="" title="Categorias" class="submenu" name="subcategoria">
                     <i class="icon-cogs"></i><span>Sub-categoria</span>
                 </a>
@@ -144,19 +144,17 @@ if ($base == 'LOCAL') {
                     <a href="<?php echo $link_scripts; ?>subcategoria/consultar.php" title="Consultar Categorias">
                         <i class="icon-picture"></i><span>Consultar</span>
                     </a>
-                </div>
+                </div>                                
                 <!-- Media Sub Menu -->
-                <a href="" class="submenu" name="teste" title="Other Contents">
-                    <i class="icon-book"></i><span>Teste</span>
+                <a href="" title="Other Contents" class="submenu" name="produto" >
+                    <i class="icon-book"></i><span>Produto</span>
                 </a>
                 <!-- Other Contents Sub Menu -->
-                <div id="teste">
-                    <a href="" title="Forms"><i class="icon-list"></i><span>  
-                            Forms</span></a>
-                    <a href="" title="Mail Lists"><i class="icon-list-ul"></i><span>  
-                            Mail Lists</span></a>
-                    <a href="" title="Maps"><i class="icon-map-marker"></i><span>  
-                            Maps</span></a>
+                <div id="produto">
+                    <a href="<?php echo $link_scripts; ?>produto/cadastro.php" title="Cadastro">
+                        <i class="icon-list"></i><span>Cadastro</span></a>
+                    <a href="" title="Consulta"><i class="icon-list-ul"></i><span>  
+                            Consulta</span></a>
                 </div>
                 <!-- Other Contents Sub Menu -->
                 <a href="" title="Admin Tools"><i class="icon-cogs"></i><span>  
