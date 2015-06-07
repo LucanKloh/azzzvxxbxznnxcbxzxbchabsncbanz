@@ -46,7 +46,7 @@ list($id_sub_categoria, $id_categoria, $nome) = mysql_fetch_row($editar);
             </dl>
             <dl>
                 <dt><label for="categoria">Categoria:*</label></dt>
-                <select id="id_categoria" name="ID_Categoria" onChange="ordenacao(this);">                                      
+                <select id="id_categoria" name="ID_Categoria" style="width: 264px">                                      
                     <?php
                     //monta SQL trazendo todos os obejetivos
                     $sql = 'SELECT id_categoria, '

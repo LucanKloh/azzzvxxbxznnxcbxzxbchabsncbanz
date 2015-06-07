@@ -18,7 +18,7 @@ include ("../conexao.php");
                     $(".status").html("Cadastrado com sucesso!");
                     $(".status").dialog();
                     $("#nome").val("");
-                    $("#goal").val("");
+                    $("#ID_Categoria").val("");
                 }
             });
         });
@@ -30,11 +30,11 @@ include ("../conexao.php");
         Cadastro de Sub-Categoria
     </div>
     <div class="conteudo_quadro_um">
-        <div class="status" title="Mensagem"></div>
+        <div class="status" title="Mensagem"></div><br>
         <form id="formulario" name="cadastro" action="javascript:func()" class="formulario" method="post">
             <dt><label for="categoria">Categoria:*</label></dt>
             <dd>
-                <select id="ID_Categoria" name="ID_Categoria" onChange="ordenacao(this);">
+                <select id="ID_Categoria" name="ID_Categoria" style="width: 264px">
                     <option value ="">Selecione</option>                    
                     <?php
                     //monta SQL trazendo todos os obejetivos

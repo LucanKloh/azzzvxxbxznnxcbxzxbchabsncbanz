@@ -28,8 +28,8 @@ include ("../conexao.php");
 
                 while ($categoria = mysql_fetch_array($retorno)) {
                     echo '<tr>';
-                      echo '<td class="center">' . $categoria['ID_SUB_CATEGORIA'] . '</td>';
-                      echo '<td class="center">' . $categoria['NOME_CAT'] . '</td>';
+                      echo '<td align="center">' . $categoria['ID_SUB_CATEGORIA'] . '</td>';
+                      echo '<td>' . $categoria['NOME_CAT'] . '</td>';
                       echo '<td><a href="editar.php?id=' . $categoria['ID_SUB_CATEGORIA'] . '">' . $categoria['NOME_SUB'] . '</a></td>';
                       echo '<td></td>';
                     echo '</tr>';

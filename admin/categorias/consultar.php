@@ -23,7 +23,7 @@ include ("../conexao.php");
 
                     while ($categoria = mysql_fetch_array($retorno)) {
                         echo '<tr>';
-                        echo '<td class="center">' . $categoria['ID_CATEGORIA'] . '</td>';
+                        echo '<td align="center">' . $categoria['ID_CATEGORIA'] . '</td>';
                         echo '<td><a href="editar.php?id=' . $categoria['ID_CATEGORIA'] . '">' . $categoria['NOME'] . '</a></td>';
                         echo '<td>';
                         echo '</td>';
